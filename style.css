@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #263238;
+}
+header{
+    background: linear-gradient(135deg, #4213d4, #2563cb);
+    color:white;
+    text-align: Center;
+    padding: 42px 20px;
+    }
+    header hi{
+        margin: 0;
+        font-size: 2.2mm;
+        letter-spacing: 2px;
+    }
+    header p{
+        margin:8px 0 0;
+        color:#abcafe;
+        font: size 1.06em;
+    }
+    nav{
+        background: #0f766e;
+        text-align: center;
+        padding: 14px 10px;
+    }
+    nav a{
+        display: inline-block;
+        color: white;
+        text decoration: none;
+        font-weight: bold;
+        padding: 2px 12px;
+        border-radius: 6px;
+        margin: 3px;
+ }
+ nav a:hover{
+    background: #115e59;
+    color: #fef3c7;
+ }
+ section{
+    background: white;
+    max-width: 1000px;
+    margin: 25px auto;
+    padding: 28px;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.08);
+ }
+ section h2{
+    color: #1d4ed8;
+    border-bottom: 3px solid #14b8a6;
+    padding-bottom: 8px;
+    margin-top: 0;
+ }
+ li{
+    margin-bottom: 8px;
+ }
+ a{
+    color: #id4ed8;
+ }
+ #resources a{
+    font-weight: bold;
+ }
+ /*learning image*/
+ section img{
+    display: block;
+    width: 100%;
+    max-width: 620px;
+    height: auto;
+    margin: 20px auto 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+ }
+ /* 8. Assignments table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #dbe3ee;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #1d4ed8;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #eff6ff;
+}
+
+tr:hover {
+    background: #dbeafe;
+}
+
+/* 9. Contact form */
+form label {
+    display: block;
+    font-weight: bold;
+    margin: 12px 0 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form select,
+form textarea {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    padding: 11px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    font: inherit;
+    background: white;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+    outline: 2px solid #93c5fd;
+    border-color: #2563eb;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    background: #0f766e;
+    color: white;
+    border: 0;
+    padding: 12px 22px;
+    margin-top: 16px;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #115e59;
+}
+
+/* 10. Footer */
+footer {
+    background: #14213d;
+    color: white;
+    text-align: center;
+    padding: 22px 15px;
+    margin-top: 35px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+/* 11. Layout for phones and small screens */
+@media (max-width: 650px) {
+    header h1 {
+        font-size: 1.6rem;
+    }
+
+    nav a {
+        display: block;
+    }
+
+    section {
+        margin: 14px 10px;
+        padding: 18px;
+    }
+
+    table {
+        font-size: 0.85rem;
+    }
+}

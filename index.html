@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+       <link id="style" rel= "stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <title>Student Learning Hub</title>
+       
+    </head>
+    <body>
+        <header>
+            <h1>STUDENT LEARNING HUB</h1>
+        <p>Welcome to our online learning center</p>
+        <hr>
+        </header>    
+        <nav>
+        <a href = "#HOME">Home</a>
+        <a href = "#about">About</a>
+        <a href = "#Units">Units</a>
+        <a href = "#Resources">Resources</a>
+        <a href = "#Assignments">Assignments</a>
+        <a href = "#Contact">Contact</a>
+    </nav>
+    <hr>
+    <!--Home Section-->
+    <section id = "Home">
+        <h2>Welcome Students</h2>
+        <p>Welcome to the Student Learning Hub, your one-stop destination for all your learning needs. Here, you can access a variety of resources, assignments, and units to enhance your knowledge and skills.</p>
+        <p>learn,explore and improve your knowledge.
+       </p>
+       <img src = "learning.jpeg" alt = "students learning together">
+       </section>
+       <section id = "About">
+        <h2>About Us</h2>
+        <p>Welcome to our learning center! We are dedicated to providing high-quality educational resources and support to help you succeed in your studies.</p>
+     </section>
+     <hr>
+     <section id = "Units">
+        <h2>Available Units</h2>
+        <ul>
+            <li>Internet Programming</li>
+            <li>Cybersecurity</li>
+            <li>Probability and Statistics</li>
+            <li>Calculus II</li>
+            <li>Networking</li>
+            <li>Data Structures</li>
+        </ul>
+        </section>
+        <hr>
+        <section id = "Resources">
+            <h2>Learning Resources</h2>
+            <p>Students can explore the website below to access a variety of learning materials and resources.</p>
+            <ol>
+                <li><a href = "https://www.w3schools.com/">W3Schools</a></li>
+                <li><a href = "https://www.coursera.org/">Coursera</a></li>
+                <li><a href = "https://www.khanacademy.org/">Khan Academy</a></li>
+                <li><a href = "https://www.edx.org/">edX</a></li>
+                <li><a href = "https://portal.dkut.ac.ke/">DeKUT Portal</a></li>
+            </ol>
+        </section>
+        <hr>
+        <section id = "Assignments">
+            <h2>Assignments</h2>
+            <p>Students can access their assignments</p>
+            <table border = "1" cellpadding = "8">
+                <tr>
+                    <th>Assignment</th>
+                    <th>Unit</th>
+                    <th>Deadline</th>
+                </tr>
+                <tr>
+                    <td> Html Basics</td>
+                    <td>Internet Programming</td>
+                    <td>2026-06-15</td>
+                </tr>
+                <tr>
+                    <td>User Awareness</td>
+                    <td>Cybersecurity</td>
+                    <td>2026-06-20</td>
+                </tr>
+                <tr>
+                    <td>Data Analysis Project</td>
+                    <td>Probability and Statistics</td>
+                    <td>2026-06-25</td>
+                </tr>
+                <tr>
+                    <td>Calculus II Assignment</td>
+                    <td>Calculus II</td>
+                    <td>2026-06-30</td>
+                </tr>
+                <tr>
+                    <td>Network Configuration</td>
+                    <td>Networking</td>
+                    <td>2026-07-05</td>
+                </tr>
+                <tr>
+                    <td>Data Structures Project</td>
+                    <td>Data Structures</td>
+                    <td>2026-07-10</td>
+                </tr>
+            </table>
+        </section>
+        <hr>
+        <section id = "contact">
+            <h2>Contact Us </h2>
+            <p>Email:learninghub@gmail.com</p>
+            <p>Location: Resource Center</p>
+            <form action = "#"method = "post">
+                <label for = "student-name">Your Name:</label>
+                <input type = "text" id = "Student-name" name = "Student-name" placeholder="Enter your full name" required>
+                <label for = "students-email">
+                    Email Address:
+                    </label>
+                    <input
+                    type = "email"
+                    id = "students-email"
+                    name = "students-email"
+                    placeholder = "Enter your email address"
+                    required
+                    >
+                    <label for = "unit">
+                        Unit:
+                        </label>
+                        <select id = "unit" name = "unit" required>
+                            <option value ="">...select a unit...</option>
+                            <option value = "Internet Programming">Internet Programming</option>
+                            <option value = "Cybersecurity">Cybersecurity</option>
+                            <option value = "Probability and Statistics">Probability and Statistics</option>
+                            <option value = "Calculus II">Calculus II</option>
+                            <option value = "Networking">Networking</option>
+                            <option value = "Data Structures">Data Structures</option>
+                        </select>
+                    <label for = "message">
+                        Your Message:
+                    </label>
+                    <textarea
+                    id = "message"
+                    name = "message"
+                    rows = "5"
+                    placeholder = "write your message here"
+                    required
+                    >
+                </textarea>  
+                <button type = "submit">
+                    send message
+                </button>                        
+            </form>        
+        </section>
+        <footer>
+            <p>
+                &copy; 2026 Student Learning Hub.
+                All rights reserved.</p>
+                <p>Designed by: IAP Students</p>
+        </footer>
+        </body>            
+      </html>
